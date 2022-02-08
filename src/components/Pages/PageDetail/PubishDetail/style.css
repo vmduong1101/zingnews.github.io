@@ -1,0 +1,79 @@
+.publishDetail {
+    margin: 20px 200px;
+    background-color: #b4c706;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 25%);
+    border-radius: 6px;
+}
+.publishDetail h1 {
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 45px;
+    line-height: 1.2;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+}
+.publishDetail h5 {
+    color:#888;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+.publishTime {
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.theArticleMetaWhite {
+    display: flex;
+    margin: 15px 0 8px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 0.85em;
+    color: #888;
+}
+
+.theArticleMetaWhite li:nth-child(3) {
+    list-style: none;
+}
+.publishImage {
+    width: 490px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.publishImage {
+    width: 490px;
+}
+
+.theArticleAuthor {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.theArticleAuthor a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.publishSumary {
+    font-family: 'Noto Serif', serif;
+    width: 500px;
+    font-weight: bold;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.publishContent p {
+    font-family: 'Noto Serif', serif;
+    width: 510px;
+    margin: 20px auto;
+    font-size: 20px;
+    line-height: 1.8rem;
+}
+.theArticleMetaWhite li {
+    color: white
+}

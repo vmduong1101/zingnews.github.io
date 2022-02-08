@@ -1,0 +1,21 @@
+.active {
+    color: #1890ff !important;
+}
+
+button:focus,
+select:focus {
+    outline: none !important;
+}
+.book {
+    margin: 10px 105px;
+}
+.search {
+    display: flex;
+    width: 500px;
+}
+.base64 {
+    width: 70px;
+    height: 70px;
+}
+
+  

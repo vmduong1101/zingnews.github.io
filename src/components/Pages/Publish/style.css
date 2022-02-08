@@ -1,0 +1,111 @@
+.bookCustom img {
+    width: 448px;
+    height: 300px;
+}
+
+.bookHeader h1 {
+    margin: 12px 0px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.bookHeader {
+    margin: 0 230px;
+    max-width: 1100px;
+}
+
+.contentBook {
+    margin: 30px 0px;
+}
+
+.bookCustom {
+    display: flex;
+    padding-right: 320px;
+}
+
+.bookCustom .cus {
+    width: 34%;
+    padding-left: 18px;
+}
+
+.cus {
+    color: #000;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.bookCustom h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: Arial;
+    color: #000;
+    line-height: 1.2
+}
+
+.bookCustom h3:hover {
+    color: #006BA0;
+}
+
+.bookCustom p {
+    line-height: 1.43;
+    font-family: Arial;
+    font-size: 14px;
+    color: #666;
+}
+
+.sectionContent {
+    display: flex;
+    width: 65%;
+    margin-top: 15px;
+}
+
+.itemSection:nth-child(2) {
+    margin: 0 20px;
+}
+
+.sectionContent img {
+    width: 217px;
+    height: 145px;
+}
+.bookNew {
+    margin: 0 230px;
+    max-width: 1100px;
+}
+.bookNew h2{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+.bookNew span {
+    color: #dd3333;
+    font-size: 25px;
+}
+hr {
+    height: 0.1px;
+    background-color: #ccc;
+}
+.bookItemNew {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 65%;
+}
+.bookItemNew:last-child {
+    border-bottom: none;
+}
+.bookItemNew img {
+    width: 225px;
+    height: 150px;
+    margin: 0px 10px 10px 0px;
+
+}
+.bookNew .cus {
+    width: 65%;
+    margin-top: 0px;
+}
+.bookNew .cus p {
+    color: #888888;
+    font-family: 'Roboto', Ubuntu, sans-serif;
+    font-size: 13.5px;
+}

@@ -1,0 +1,33 @@
+.footer {
+    margin-top: 15px;
+    display: flex;
+    padding: 0 230px;
+    background-color: #f7f7f7;
+    justify-content: space-between;
+}
+.footerLeft {
+    margin: 20px 0 10px 0;
+}
+.footerLeft img {
+    width: 95px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.footerRight {
+    margin-top: 70px;
+}
+.footer p {
+    color: #888888;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 12px;
+}
+@media (max-width: 739px) {
+    .footer {
+        display: none;
+    }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+    .footer {
+        padding: 0 100px
+    }
+}

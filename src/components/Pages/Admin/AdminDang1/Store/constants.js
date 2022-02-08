@@ -1,0 +1,27 @@
+const NS_BOOK_STORE = "bookStore";
+
+const NS_DANG1_STORE = "dang1Store";
+const SET_LOADING_STEP = `${NS_BOOK_STORE}/setGlobalLoading`;
+
+const GET_ALL_DANG1 = `${NS_DANG1_STORE}/getAllDang1`;
+const SAVE_ALL_DANG1 = `${NS_DANG1_STORE}/saveAllDang1`;
+const GET_DETAIL_DANG1 = `${NS_DANG1_STORE}/getDetailDang1`;
+const SAVE_DETAIL_DANG1 = `${NS_DANG1_STORE}/saveDetailDang1`;
+const UPDATE_DANG1_REQUEST = `${NS_DANG1_STORE}/updateDang1Request`;
+const SAVE_UPDATE_DANG1 = `${NS_DANG1_STORE}/saveUpdateDang1`;
+const CREATE_DANG1_REQUEST = `${NS_DANG1_STORE}/createDang1Request`;
+const DELETE_DANG1_REQUEST = `${NS_DANG1_STORE}/deleteDang1Request`;
+
+export {
+  NS_BOOK_STORE,
+  SET_LOADING_STEP,
+  NS_DANG1_STORE,
+  GET_ALL_DANG1,
+  SAVE_ALL_DANG1,
+  GET_DETAIL_DANG1,
+  SAVE_DETAIL_DANG1,
+  UPDATE_DANG1_REQUEST,
+  SAVE_UPDATE_DANG1,
+  CREATE_DANG1_REQUEST,
+  DELETE_DANG1_REQUEST,
+};
