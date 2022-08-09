@@ -30,17 +30,17 @@ import MulmediaDetail from "../Pages/PageDetail/MulmediaDetail";
 import Footer from "../Common/Footer";
 
 const DefaultLayout = () => {
-  const loggedInUser = localStorage.getItem("user");
+  // const loggedInUser = localStorage.getItem("user");
 
-  if (loggedInUser === null) {
-    return (
-      <Navigate
-        to={{
-          pathname: "/login",
-        }}
-      />
-    );
-  }
+  // if (loggedInUser === null) {
+  //   return (
+  //     <Navigate
+  //       to={{
+  //         pathname: "/login",
+  //       }}
+  //     />
+  //   );
+  // }
   return (
     <>
       <HeaderComponent />

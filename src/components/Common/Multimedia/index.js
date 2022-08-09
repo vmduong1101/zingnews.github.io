@@ -34,12 +34,12 @@ const Multimedia = (props) => {
           <div className="headerLogoMul">
             <h1>MULTIMEDIA</h1>
           </div>
-          <a href="#">VIDEO</a>
+          {/* <a href="#">VIDEO</a>
           <a href="#">LONGFORM</a>
           <a href="#">VOICES</a>
           <a href="#">LENS</a>
           <a href="#">STORY</a>
-          <a href="#">QUIZZ</a>
+          <a href="#">QUIZZ</a> */}
         </div>
       </div>
       <div className="containerMul">

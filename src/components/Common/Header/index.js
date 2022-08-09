@@ -97,13 +97,13 @@ const HeaderComponent = (props) => {
                 Sách
               </NavLink>
             </p>
-            <p>Thế Giới</p>
+            {/* <p>Thế Giới</p>
             <p>Công Nghệ</p>
             <p>Thể Thao</p>
             <p>Kinh Doanh</p>
             <p>Xã hội</p>
             <p>Đời Sống</p>
-            <p>Giải Trí</p>
+            <p>Giải Trí</p> */}
             <p onClick={handleShowAdmin}>Admin</p>
             <p>...</p>
             {isShowAdmin && (
@@ -161,7 +161,7 @@ const HeaderComponent = (props) => {
           </div>
         </div>
         <div className="headerSearch">
-          <i className="fa fa-search" aria-hidden="true"></i>
+          {/* <i className="fa fa-search" aria-hidden="true"></i> */}
           <img
             src="https://store-images.s-microsoft.com/image/apps.28411.13510798887593857.411c7070-8254-4bc7-9822-93212e9b3eaa.d5650289-0ad1-4560-ac30-38a18a1847bb?mode=scale&q=90&h=270&w=270&background=%230078D7"
             alt=""

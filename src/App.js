@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/*" element={<Defaultlayout />} />
-          <Route exact path="/login" element={<Login />} />
+          {/* <Route exact path="/login" element={<Login />} /> */}
         </Routes>
       </Router>
     </>

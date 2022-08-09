@@ -15,7 +15,7 @@ export default function createReducer() {
     dang1Reducers,
     dang2Reducers,
     dang3Reducers,
-    loginReducers,
+    // loginReducers,
     adminbooknewReducers,
     adminmulmediaReducers,
     publishsReducers,
